@@ -1,0 +1,69 @@
+################ !!!! Git Ignore Config File !!! ################
+# NOTE: This file must be put under root dir of git project!
+#################################################################
+
+# common ignore files
+*.swp
+*.tmp
+*.bak
+*.ropeproject/
+.svn/
+
+# Mac files
+.DS_Store
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# general output files
+bin/
+gen/
+out/
+
+# C/C++ specific files
+*.o
+
+# Java/Android specific files
+*.class
+*.apk
+*.ap_
+*.dex
+
+# Python specific files
+*.pyc
+Dock.egg-info/
+dist/
+config.yaml
+
+# Eclipse specific files
+.settings/
+
+# Intellij specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Xcode specific files
+build/
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+
+# IDEA specific files
+.idea/
+
+# Other files
+data/res*.yaml
+data/*.pem
+data/*.key
